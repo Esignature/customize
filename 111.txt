@@ -1,0 +1,21 @@
+$data=array(
+    
+        'placeholder'=>array('name','html_id','testa','testb','testc'),
+        'text_input'=>array('name','html_id'),
+        'text_input_search'=>array('name','html_id'),
+        'click_event'=>array('name','html_id'),
+            'click_event_page'=>array('name','html_id'),
+            'mouse_over_event'=>array('name','html_id'),
+            'grab_static_html '=>array('name','html_id','grab_HTML_mask'=>array('all','number','not_number','REGULAR_EXPRESSION','if_found','if_not_found','fragment','after','between')),
+            'grab_html'=>array('name','html_id','grab_HTML_mask'=>array('all','number','not_number','REGULAR_EXPRESSION','if_found','if_not_found','fragment','after','between')),
+            'grab_volatile_html'=>array('name','html_id','grab_HTML_mask'=>array('all','number','not_number','REGULAR_EXPRESSION','if_found','if_not_found','fragment','after','between')),
+            'user_data'=>array('name','html_id','user_data_field'),
+            'custom_event'=>array('name','html_id','argument_value'),
+            'load_event'=>array('name','html_id'),
+            'grab_cookie'=>array('name','cookie_name:','grab_HTML_mask'=>array('all','number','not_number','REGULAR_EXPRESSION','if_found','if_not_found','fragment','after','between')),
+            'grab_url'=>array('name','html_id','grab_HTML_mask'=>array('all','number','not_number','REGULAR_EXPRESSION','if_found','if_not_found','fragment','after','between')),
+            'grab_internal_id'=>array('name','html_id','grab_HTML_mask'=>array('all','number','not_number','REGULAR_EXPRESSION','if_found','if_not_found','fragment','after','between')),
+            'grab_user_data'=>array('name','html_id','grab_HTML_mask','profile_data_type'),
+            'grab_meta_tag'=>array('name','html_id','grab_HTML_mask'=>array('all','number','not_number','REGULAR_EXPRESSION','if_found','if_not_found','fragment','after','between'))
+       
+);

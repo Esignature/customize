@@ -1,0 +1,49 @@
+RewriteEngine On
+
+RewriteBase /visitortarget
+
+
+
+#REMOVE index.php FROM THE CI URL
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule ^(.*)$ index.php?/$1 [L]
+
+
+
+#Removes access to the system folder by users.
+
+#Additionally this will allow you to create a System.php controller,
+
+#previously this would not have been possible.
+
+#'system' can be replaced if you have renamed your system folder.
+
+RewriteCond %{REQUEST_URI} ^system.*
+
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+
+
+
+#Route series of js and css files to be combined and compressed.
+
+RewriteRule ^css1/(.*) application/views/site/combine.php?type=css&files=$1 [L]
+
+RewriteRule ^js1/(.*) application/views/site/combine.php?type=js&files=$1 [L]
+
+
+
+#PREVENT DIRECT SONG FILE ACCESS/DOWNLOADS
+
+RewriteRule ^(uploads/album)$ - [F,L]
+
+
+
+ErrorDocument 404 /index.php
+
+
+
+#For language setting see http://stackoverflow.com/questions/9274277/add-language-directory-using-htaccess

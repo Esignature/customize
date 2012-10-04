@@ -1,0 +1,7 @@
+DYNAMIC - TAGS
+
+1.  artist name      {artist_name}
+2.  artist detail    {artist_detail}
+3.  artist biography {artist_biography}
+4.  artist Menu      {artist_menu}
+5.  

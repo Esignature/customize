@@ -1,0 +1,75 @@
+<style type="text/css">
+.artist_fix_wrap{
+background:url({theme_bg}) no-repeat;}
+</style>
+<div class="srch_wrappr" >{artist_index}</div>
+<div class="artist_wrapper">
+
+
+    <div class="artist_fix_wrap">
+    
+        <div>
+				  <div class="block_menu_artist">
+					  <div class="artist_menu"> {artist_menu} </div>
+					  					    <div class="profile_view">{profile_visit}</div>
+					  <div class="clear"></div>
+				  </div>
+				  
+				  <div class="clear"></div>
+				</div>
+    
+        <div class="main_box">
+            <div class="artist_image">
+                {artist_image}
+            </div>
+            <div class="artist_detail">
+                <h1>{artist_name}</h1>
+                
+                <div id="user_box">
+                    {user_become_fan} {user_send_message} 
+                <div class="clear"></div></div>
+                
+                {artist_biogrphy_intro}
+            </div><div class="clear"></div>
+        </div>
+
+        <div class="module_box">
+            <div class="left">
+                <div class="tab_container">
+                    <ul class="artist_tab">
+                      <li class="artist_tab_index current_tab">Tracks / CRBTs</li>
+                      <li class="artist_tab_index">Albums</li>
+                      <!--<li class="artist_tab_index">Free Downloads</li>-->
+                    </ul>
+                    <div class="clear"></div>
+                    <ul class="artist_content">
+                      <li class="artist_tab_content current_tab">{artist_tracks}</li>
+                      <li class="artist_tab_content">{artist_albums}</li>
+                      <!--<li class="artist_tab_content">ABC DEF GHI tab 3</li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="module_title">News | <a href="#" class="triggerDummy" rel="menu_news">More News</a></div>
+                <div class="news_container">
+                    <ul class="news_list list">{artist_news}</ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="module_box">
+                    <div class="module_title">Videos</div>
+                    <ul class="video_list list">{artist_videos}</ul>
+                    <div class="morelink"><a href="#" class="triggerDummy" rel="menu_videos">See all videos</a></div>
+                </div>
+                <div class="module_box">
+                    <div class="module_title ext">Photos</div>
+                    <ul class="photo_list list">{artist_photos}</ul>
+                    <div class="clear"></div>
+                    <div class="morelink"><a href="#" class="triggerDummy" rel="menu_photos">See all Photos</a></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    
+    </div>
+</div>

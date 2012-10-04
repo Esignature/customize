@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="20, <jcms:site:refreshURL/>" />
+<title> <jcms:site:title/> </title>
+<jcms:defaultSources/>
+
+<link href="css/reset.css" rel="stylesheet" />
+<link href="css/960_24_col.css" rel="stylesheet" />
+<link href="css/text.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<script language="javascript">
+$(function(){
+	
+});
+</script>
+</head>
+
+    <div class="container_24">
+        
+        <div class="grid_5 logo_section alpha">
+            <img src="images/logo.jpg" alt="Nepcric" />
+            <div class="copyright" style="color:#fefefe;text-align:left;font:11px Arial, Helvetica, sans-serif;padding-left:26px;">copyright &copy; 2011.   <br /> All rights reserved</div>
+        </div>
+        <div class="grid_6 detail_section">
+            <div class="summary">
+              <h2 class="heading">Live Match</h2>
+              <div class="scorecard curveBorder5">
+                <div class="summary_container">
+                    <h2 class="game">Pepsi <br />National One-Day</h2>
+                    <div class="box_score">
+                        <h3 class="teams"><jcms:module:match:teams/></h3>
+                        <div class="scores">
+                            <jcms:module:summary:team1/> <br />
+                            <jcms:module:summary:team2/>
+                            <ul class="individual_scores">
+                                 
+                                 <jcms:module:match:batsman/>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="next_match">
+                   <jcms:module:match:otherlivescore/>
+               </div>
+                
+                <div class="next_match">
+                  
+                   <jcms:module:fixture/>
+               </div>
+                
+                <div style="float:left; margin:10px; margin-top:18px; margin-left:-3px;"><img src="images/sportslogo.jpg"/></div>
+                
+               </div><!--<img src="images/ncell.jpg" alt="Ncell" width="216" style="margin-top:10px;" />-->
+            </div>
+        </div>
+        <div class="grid_13 analysis_section">
+            <div class="analysis">
+                <h2 class="heading">Match Analysis</h2>
+                <div class="detail_analysis">
+                    <jcms:module:match:analysis/>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+    </div>
+
+<body>
+</body>
+</html>

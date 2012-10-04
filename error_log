@@ -1,0 +1,28 @@
+[06-Jun-2012 14:49:27] PHP Warning:  include(application/errors/error_php.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/yaktrail/public_html/visitortarget/system/core/Exceptions.php on line 167
+[06-Jun-2012 14:49:27] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yaktrail/public_html/visitortarget/system/core/Exceptions.php on line 167
+[06-Jun-2012 14:49:27] PHP Warning:  include(application/errors/error_php.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/yaktrail/public_html/visitortarget/system/core/Exceptions.php on line 167
+[06-Jun-2012 14:49:27] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yaktrail/public_html/visitortarget/system/core/Exceptions.php on line 167
+[07-Jun-2012 14:01:56] PHP Fatal error:  Call to a member function getTags() on a non-object in /home/yaktrail/public_html/visitortarget/application/controllers/apanel.php on line 486
+[11-Jun-2012 19:57:59] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 19:58:46] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 19:59:20] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:03:50] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:03:52] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:03:54] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:07:32] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:15:03] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:18:40] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:30:10] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:32:44] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:37:54] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:38:17] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:38:23] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:41:26] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:51:08] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 17
+[11-Jun-2012 20:58:59] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 22
+[11-Jun-2012 20:59:04] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 22
+[11-Jun-2012 21:24:03] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 22
+[11-Jun-2012 21:49:32] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 22
+[11-Jun-2012 21:57:31] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 24
+[11-Jun-2012 21:57:32] PHP Fatal error:  Call to undefined function fsite_url() in /home/yaktrail/public_html/visitortarget/application/views/frontend/index.php on line 24
+[17-Jun-2012 10:09:14] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/yaktrail/public_html/visitortarget/application/views/site/inc/../js/validations/validate.register.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yaktrail/public_html/visitortarget/application/views/site/inc/header_login.php on line 15

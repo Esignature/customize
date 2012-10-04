@@ -1,0 +1,59 @@
+
+#wrapper {
+	width:600px;
+	margin:0 auto;
+	text-align:left;
+}
+#chart,#form_values {
+	width:auto;
+}
+#chart {
+	list-style:none;
+	
+}
+#chart li,#chart li span {
+	height:3px;	
+}
+#chart li .percent {
+	width:30px;
+	position: absolute;
+	top:0;
+	right:-40px;
+	text-align:right;
+}
+#chart li {
+	position: relative;
+	display:block;
+	height:3px;
+	width:auto;
+	margin:0 0 5px 5px;
+	text-align:left;
+}
+#chart li .bar {
+	width:70% !important;
+	float:left !important;
+	border:none !important;
+}
+.red .bar {
+	background:red;
+}
+.blue .bar {
+	background:blue;
+}
+.yellow .bar {
+	background:yellow;
+}
+.orange .bar {
+	background:orange;
+}
+.purple .bar {
+	background:purple;
+}
+.field {
+	padding:3px;
+	width:50px;
+	border:solid 1px #000;
+	float:left;
+	margin-right:5px;
+	color:#333;
+}
